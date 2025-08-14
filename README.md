@@ -26,7 +26,6 @@ This project was developed as part of my **Bachelor’s thesis** and serves as a
 ---
 
 ## Project Structure
-      ```bash
       lab-in-hands/
       ├── lab_in_hands/            # Project configuration (settings, URLs, WSGI)
       ├── admin/                   # Custom Django app (views, URLs, templates)
