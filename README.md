@@ -26,15 +26,17 @@ This project was developed as part of my **Bachelor’s thesis** and serves as a
 ---
 
 ## Project Structure
-lab-in-hands/
-├── lab_in_hands/ # Project configuration (settings, URLs, WSGI)
-├── admin/ # Custom Django app (views, URLs, templates)
-├── templates/ # HTML templates for pages
-├── static/ # CSS, JS, images, and PHP mail handler
-├── assets/ # Static files build output (collectstatic)
-├── db.sqlite3 # SQLite database (currently minimal)
-├── manage.py # Django management script
-└── README.md # Project documentation
+      ```bash
+      lab-in-hands/
+      ├── lab_in_hands/            # Project configuration (settings, URLs, WSGI)
+      ├── admin/                   # Custom Django app (views, URLs, templates)
+      ├── templates/               # HTML templates for pages
+      ├── static/                  # CSS, JS, images, and PHP mail handler
+      ├── assets/                  # Static files build output (collectstatic)
+      ├── db.sqlite3               # SQLite database (currently minimal)
+      ├── manage.py                 # Django management script
+      └── README.md                # Project documentation
+
 
 ---
 
