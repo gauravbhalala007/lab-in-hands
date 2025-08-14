@@ -57,8 +57,24 @@ lab-in-hands/
 2. **Create and activate a virtual environment**
     ```bash
     python -m venv venv
-source venv/bin/activate     # On macOS/Linux
-venv\\Scripts\\activate        # On Windows
+    source venv/bin/activate     # On macOS/Linux
+    venv\\Scripts\\activate        # On Windows
 
-3. 
-4. 
+3. **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+
+
+4. **Apply migrations**
+    ```bash
+    python manage.py migrate
+
+5. **Run the development server**
+    ```bash
+    python manage.py runserver
+
+6. **Access the app**
+   Open your browser and go to:
+   ```bash
+   http://127.0.0.1:8000/
+
